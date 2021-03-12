@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FiBell, FiChevronDown, FiChevronsDown, FiColumns, FiDownload, FiEdit, FiHeadphones, FiHelpCircle, FiHome, FiMic, FiSearch, FiSettings } from 'react-icons/fi';
+import { FiBell, FiChevronDown, FiColumns, FiDownload, FiHeadphones, FiHelpCircle, FiHome, FiMic, FiSearch, FiSettings } from 'react-icons/fi';
 import { FaFilter } from 'react-icons/fa';
 
 import './styles/home.css'
