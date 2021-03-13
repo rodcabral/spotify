@@ -3,8 +3,6 @@ import { FaFilter } from 'react-icons/fa';
 
 import './styles/home.css'
 
-import lofigirl from './lofigirl.png'
-
 function App() {
   return (
     <div className="container">
