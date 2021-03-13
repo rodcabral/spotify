@@ -8,21 +8,21 @@ function App() {
     <div className="container">
       <div className="main-section">
         <div className="left-nav">
-          <img className="logo" alt="logo spotify" src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-green-logo-8.png" />
+          <button className="logo"><img className="logo" alt="logo spotify" src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-green-logo-8.png" /></button>
 
           <ul className="icons-nav">
-            <li><a href="/"><FiHome size="24" color="#FFF" /></a></li>
-            <li><a href="/"><FiHeadphones size="24" color="#FFF" /></a></li>
-            <li><a href="/"><FiColumns size="24" color="#FFF" /></a></li>
-            <li><a href="/"><FiDownload size="24" color="#FFF" /></a></li>
+            <li><button><FiHome size="24" color="#FFF" /></button></li>
+            <li><button><FiHeadphones size="24" color="#FFF" /></button></li>
+            <li><button><FiColumns size="24" color="#FFF" /></button></li>
+            <li><button><FiDownload size="24" color="#FFF" /></button></li>
           </ul>
 
           <div className="library-container">
             <span className="library-title">LIBRARY</span>
             <ul className="library-menu">
-              <li className="library-item"><a href="/">Favorites</a></li>
-              <li className="library-item"><a href="/">Podcasts</a></li>
-              <li className="library-item"><a href="/">Recent</a></li>
+              <li className="library-item"><button>Favorites</button></li>
+              <li className="library-item"><button>Podcasts</button></li>
+              <li className="library-item"><button>Recent</button></li>
             </ul>
           </div>
 
@@ -34,22 +34,22 @@ function App() {
                 <FiSearch size="20" color="rgba(255, 255, 255, 0.7)" />
                 <input id="searchinput" type="text" placeholder="Search..." />
                 <div className="input-options">
-                  <FiMic size="20" color="#FFF" />
+                  <button><FiMic size="20" color="#FFF" /></button>
                   <div className="separator"></div>
-                  <FaFilter size="20" color="#FFF" />
+                  <button><FaFilter size="20" color="#FFF" /></button>
                 </div>
               </div>
             </label>
 
             <div className="profile-section">
               <ul className="profile-menu">
-                <li><FiSettings size="20" color="#FFF" /></li>
-                <li><FiHelpCircle size="20" color="#FFF" /></li>
-                <li><FiBell size="20" color="#FFF" /></li>
+                <li><button><FiSettings size="20" color="#FFF" /></button></li>
+                <li><button><FiHelpCircle size="20" color="#FFF" /></button></li>
+                <li><button><FiBell size="20" color="#FFF" /></button></li>
               </ul>
               <div className="profile">
-                <img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png" alt="Profile" />
-                <FiChevronDown size="24" color="#FFF" />
+                <button><img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png" alt="Profile" /></button>
+                <button><FiChevronDown size="24" color="#FFF" /></button>
               </div>
             </div>
 
@@ -60,8 +60,12 @@ function App() {
                 <div className="playlist-header">
                   <p className="my-playlist-title">My Playlists</p>
                   <div className="playlist-buttons">
-                    <FiArrowLeft size="24"  color="#FFF"/>
-                    <FiArrowRight size="24"  color="#FFF" style={{marginLeft: 30}}/>
+                    <button>
+                      <FiArrowLeft size="24"  color="#FFF"/>
+                    </button>
+                    <button>
+                      <FiArrowRight size="24"  color="#FFF"/>
+                    </button>
                   </div>
                 </div>
                 <div className="playlist-container">
@@ -84,20 +88,22 @@ function App() {
                 </div>
               </div>
             </div>
-            {/* <div className="right-content">
+            <div className="right-content">
               <div className="friends-section">
                 <div className="friends-box">
 
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
-      </div>
-      <div className="music-section">
       </div>
     </div>
   );
 }
 
 export default App;
+
+
+// <div className="music-section">
+// </div>
