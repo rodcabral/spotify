@@ -1,4 +1,4 @@
-import { FiArrowLeft, FiArrowRight, FiBell, FiChevronDown, FiColumns, FiDownload, FiHeadphones, FiHelpCircle, FiHome, FiMic, FiSearch, FiSettings } from 'react-icons/fi';
+import {FiBell, FiChevronDown, FiChevronLeft, FiChevronRight, FiColumns, FiDownload, FiHeadphones, FiHelpCircle, FiHome, FiMic, FiSearch, FiSettings } from 'react-icons/fi';
 import { FaFilter } from 'react-icons/fa';
 
 import './styles/home.css'
@@ -6,6 +6,8 @@ import './styles/home.css'
 function App() {
   return (
     <div className="container">
+      <div className="music-section">
+      </div>
       <div className="main-section">
         <div className="left-nav">
           <button className="logo"><img className="logo" alt="logo spotify" src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-green-logo-8.png" /></button>
@@ -61,28 +63,28 @@ function App() {
                   <p className="my-playlist-title">My Playlists</p>
                   <div className="playlist-buttons">
                     <button>
-                      <FiArrowLeft size="24"  color="#FFF"/>
+                      <FiChevronLeft size="24" color="#FFF" />
                     </button>
                     <button>
-                      <FiArrowRight size="24"  color="#FFF"/>
+                      <FiChevronRight size="24" color="#FFF" />
                     </button>
                   </div>
                 </div>
                 <div className="playlist-container">
                   <div className="playlist-box">
-                    <img src="https://static.highsnobiety.com/thumbor/QEQoC9kEVuoS3jwz8n_gJ632IUk=/1600x1067/static.highsnobiety.com/wp-content/uploads/2020/02/25170803/lofi-girl.jpg" alt="playlist"/>
-                    <span>Lo-fi</span>
+                    <img src="https://static.highsnobiety.com/thumbor/QEQoC9kEVuoS3jwz8n_gJ632IUk=/1600x1067/static.highsnobiety.com/wp-content/uploads/2020/02/25170803/lofi-girl.jpg" alt="playlist" />
+                    <span>Lo-fi hip hop</span>
                   </div>
                   <div className="playlist-box">
-                    <img src="https://i.pinimg.com/564x/05/5f/b9/055fb9aa453dfc62e84af468b31c0fb7.jpg" alt="playlist"/>
+                    <img src="https://i.pinimg.com/564x/05/5f/b9/055fb9aa453dfc62e84af468b31c0fb7.jpg" alt="playlist" />
                     <span>Coffe time</span>
                   </div>
                   <div className="playlist-box">
-                    <img src="https://i.pinimg.com/736x/ca/10/2a/ca102ab6e31529c2a0c1034dc99d9197.jpg" alt="playlist"/>
+                    <img src="https://i.pinimg.com/736x/ca/10/2a/ca102ab6e31529c2a0c1034dc99d9197.jpg" alt="playlist" />
                     <span>Coding</span>
                   </div>
                   <div className="playlist-box">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/81voUY21ZkL._SL1500_.jpg" alt="playlist"/>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/81voUY21ZkL._SL1500_.jpg" alt="playlist" />
                     <span>Best of J Cole</span>
                   </div>
                 </div>
@@ -103,7 +105,3 @@ function App() {
 }
 
 export default App;
-
-
-// <div className="music-section">
-// </div>
