@@ -7,14 +7,6 @@
     background: #0F0F0F;
 }
 
-.music-section {
-    background: #1C1C1C;
-    width: 100%;
-    height: 4em;
-    position: fixed;
-    bottom: 0;
-}
-
 .logo {
     height: 0;
     border: none;
@@ -184,6 +176,7 @@
     width: 55px;
     height: 55px;
     border-radius: 100%;
+    object-fit: cover;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
 }
 
@@ -204,13 +197,93 @@
 .playlist-section {
 }
 
-.friends-box {
+.friends-section {
     width: 290px;
-    height: 80vh;
+    height: 70vh;
     display: fixed;
-    background: #1C1C1C;
+    overflow: auto;
+    background: #3a3a3a;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+    padding: 15px;
+}
+
+/* scroll */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px grey; 
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: rgb(34, 34, 34); 
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #1a1a1a; 
+}
+
+.friends {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.friend {
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.friend-listening {
+    margin-left: 0.5em;
+}
+
+.friend img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.friend-name {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.friend-music {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.friend-artist {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.play-friend-song {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.play-friend-song span{
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+}
+
+.friends-title {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
 }
 
 .playlist-header {
@@ -279,4 +352,44 @@
 
 .playlist-box span {
 
+}
+
+.music-section {
+    background: #1C1C1C;
+    width: 100%;
+    height: 5em;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.music {
+    display: flex;
+    flex-direction: row;
+}
+
+.music img {
+    width: 65px;
+    height: 65px;
+}
+
+.about-music {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.music-title {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.artist-name {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
 }
