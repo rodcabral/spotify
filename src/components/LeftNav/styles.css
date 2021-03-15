@@ -1,0 +1,67 @@
+.logo {
+    height: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.left-nav {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-nav li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.icons-nav li button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0.8em;
+}
+
+.icons-nav li:first-child {
+    border-left: 1px solid #1D8954;
+}
+
+.library-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.library-title {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(149, 149, 149, 0.9);
+    margin-bottom: 25px;
+}
+
+.library-menu .library-item {
+    margin-bottom: 25px;
+}
+
+.library-menu .library-item button {
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    font-size: 14px;
+}
