@@ -7,6 +7,7 @@ import Header from './components/Header';
 import LeftNav from './components/LeftNav';
 
 function App() {
+
   return (
     <div className="container">
       <MusicPlayer/>

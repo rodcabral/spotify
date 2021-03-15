@@ -6,7 +6,7 @@
 .main-section {
     display: grid;
     grid-template-columns: 6em 1fr;
-    background: #0F0F0F;
+    background: #131313;
 }
 
 .right-section {
