@@ -1,5 +1,5 @@
 .friends-section {
-    width: 290px;
+    width: 19em;
     height: 70vh;
     display: fixed;
     overflow: auto;
@@ -47,19 +47,19 @@
 .friend-music {
     color: rgba(255, 255, 255, 0.7);
     font-size: 14px;
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 .friend-artist {
     color: rgba(255, 255, 255, 0.7);
     font-size: 14px;
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 .play-friend-song {
     display: flex;
     align-items: center;
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 .play-friend-song button {
