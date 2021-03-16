@@ -50,8 +50,8 @@
 }
 
 .playlist-box img {
-    width: 190px;
-    height: 220px;
+    width: 210px;
+    height: 240px;
 
     filter: drop-shadow(0px 8px 24px rgba(37, 37, 37, 0.15));
     border-radius: 5px;
@@ -66,6 +66,34 @@
     margin-top: 0.5em;
 }
 
-.playlist-box span {
+.image-container {
+    background: red;
+    border-radius:5px;
+    width: 210px;
+    height: 240px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 2s;
+}
 
+.image-container .play-playlist{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.349);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.image-container .play-playlist button {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.image-container:hover .play-playlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

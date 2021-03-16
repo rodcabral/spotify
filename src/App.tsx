@@ -5,6 +5,7 @@ import FriendsSection from './components/Friends';
 import MyPlaylist from './components/MyPlaylist';
 import Header from './components/Header';
 import LeftNav from './components/LeftNav';
+import Recommended from './components/Recommended';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <div className="content">
             <div className="left-content">
               <MyPlaylist/>
+              <Recommended/>
             </div>
             <div className="right-content">
               <FriendsSection/>

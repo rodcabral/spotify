@@ -63,7 +63,7 @@ export default function FriendsSection() {
                         <p className="friend-artist">Runaway</p>
                         <div className="play-friend-song">
                             <button><FiPlayCircle size="24" color="#e2e2e2" /></button>
-                            <span>Fazendo nada</span>
+                            <span>Vibes</span>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ export default function FriendsSection() {
                         <p className="friend-artist">Post Malone</p>
                         <div className="play-friend-song">
                             <button><FiPlayCircle size="24" color="#e2e2e2" /></button>
-                            <span>Random</span>
+                            <span>IDK</span>
                         </div>
                     </div>
                 </div>

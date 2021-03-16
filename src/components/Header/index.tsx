@@ -1,5 +1,5 @@
-import { FaFilter } from 'react-icons/fa'
-import { FiBell, FiChevronDown, FiHelpCircle, FiMic, FiSearch, FiSettings } from 'react-icons/fi'
+import { BsFilterLeft } from 'react-icons/bs'
+import { FiBell, FiChevronDown, FiFilter, FiHelpCircle, FiMic, FiSearch, FiSettings } from 'react-icons/fi'
 import './styles.css'
 
 export default function Header() {
@@ -12,7 +12,7 @@ export default function Header() {
                     <div className="input-options">
                         <button><FiMic size="20" color="#FFF" /></button>
                         <div className="separator"></div>
-                        <button><FaFilter size="20" color="#FFF" /></button>
+                        <button><BsFilterLeft size="20" color="#FFF" /></button>
                     </div>
                 </div>
             </label>
