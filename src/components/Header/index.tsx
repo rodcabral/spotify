@@ -24,7 +24,7 @@ export default function Header() {
                     <li><button><FiBell size="20" color="#FFF" /></button></li>
                 </ul>
                 <div className="profile">
-                    <button><img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Profile" /></button>
+                    <button><img src="https://images.unsplash.com/photo-1563240619-44ec0047592c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Profile" /></button>
                     <button><FiChevronDown size="24" color="#FFF" /></button>
                 </div>
             </div>

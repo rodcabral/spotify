@@ -8,14 +8,14 @@ export default function FriendsSection() {
             <p className="friends-title">Friends Activity</p>
             <div className="friends">
                 <div className="friend">
-                    <img src="https://images.unsplash.com/photo-1534564533601-4d3e3d9fd229?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="friend" />
+                    <img src="https://images.unsplash.com/photo-1572651198362-377a3298e433?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" alt="friend" />
                     <div className="friend-listening">
                         <p className="friend-name">Willian</p>
-                        <p className="friend-music">Atlantis</p>
-                        <p className="friend-artist">Seafret</p>
+                        <p className="friend-music">A Lot</p>
+                        <p className="friend-artist">21 Savage</p>
                         <div className="play-friend-song">
                             <button><FiPlayCircle size="24" color="#e2e2e2" /></button>
-                            <span>Relaxing</span>
+                            <span>Rapzin</span>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ export default function FriendsSection() {
                         <p className="friend-artist">Travis Scott</p>
                         <div className="play-friend-song">
                             <button><FiPlayCircle size="24" color="#e2e2e2" /></button>
-                            <span>Trapzin</span>
+                            <span>Brabão</span>
                         </div>
                     </div>
                 </div>
@@ -35,11 +35,11 @@ export default function FriendsSection() {
                     <img src="https://images.unsplash.com/photo-1506634572416-48cdfe530110?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" alt="friend" />
                     <div className="friend-listening">
                         <p className="friend-name">Mike</p>
-                        <p className="friend-music">Heart Afire</p>
-                        <p className="friend-artist">Defqwop</p>
+                        <p className="friend-music">Atlantis</p>
+                        <p className="friend-artist">Seafret</p>
                         <div className="play-friend-song">
                             <button><FiPlayCircle size="24" color="#e2e2e2" /></button>
-                            <span>Animadão</span>
+                            <span>Doidera</span>
                         </div>
                     </div>
                 </div>
@@ -68,14 +68,14 @@ export default function FriendsSection() {
                     </div>
                 </div>
                 <div className="friend">
-                    <img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=664&q=80" alt="friend" />
+                    <img src="https://images.unsplash.com/photo-1534564533601-4d3e3d9fd229?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="friend" />
                     <div className="friend-listening">
                         <p className="friend-name">Ryan</p>
                         <p className="friend-music">Circles</p>
                         <p className="friend-artist">Post Malone</p>
                         <div className="play-friend-song">
                             <button><FiPlayCircle size="24" color="#e2e2e2" /></button>
-                            <span>IDK</span>
+                            <span>N sei</span>
                         </div>
                     </div>
                 </div>
