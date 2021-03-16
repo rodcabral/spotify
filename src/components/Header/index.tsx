@@ -1,5 +1,5 @@
 import { BsFilterLeft } from 'react-icons/bs'
-import { FiBell, FiChevronDown, FiFilter, FiHelpCircle, FiMic, FiSearch, FiSettings } from 'react-icons/fi'
+import { FiBarChart, FiBell, FiChevronDown, FiFilter, FiHelpCircle, FiMic, FiRadio, FiSearch, FiSettings } from 'react-icons/fi'
 import './styles.css'
 
 export default function Header() {
@@ -20,7 +20,7 @@ export default function Header() {
             <div className="profile-section">
                 <ul className="profile-menu">
                     <li><button><FiSettings size="20" color="#FFF" /></button></li>
-                    <li><button><FiHelpCircle size="20" color="#FFF" /></button></li>
+                    <li><button><FiBarChart size="20" color="#FFF" /></button></li>
                     <li><button><FiBell size="20" color="#FFF" /></button></li>
                 </ul>
                 <div className="profile">
