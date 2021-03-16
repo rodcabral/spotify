@@ -1,5 +1,5 @@
 import { BsFilterLeft } from 'react-icons/bs'
-import { FiBarChart, FiBell, FiChevronDown, FiFilter, FiHelpCircle, FiMic, FiRadio, FiSearch, FiSettings } from 'react-icons/fi'
+import { FiBarChart, FiBell, FiChevronDown, FiMic, FiSearch, FiSettings } from 'react-icons/fi'
 import './styles.css'
 
 export default function Header() {
